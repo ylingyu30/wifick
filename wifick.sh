@@ -13,11 +13,6 @@ exit
 esac
 while true; do
     clear
-    echo " █████      ████████     █████      ██   ██"
-    echo "██   ██         ██      ██   ██     ██   ██"
-    echo "███████         ██      ███████      █████"
-    echo "██   ██         ██      ██   ██       ██"
-    echo "██   ██     ██████      ██   ██     ██  ██"
     echo "please use it with superuser."
     echo "1)choose to ifconfig"
     echo "2)choose to arpspoof"
@@ -127,5 +122,5 @@ while true; do
     esac
 
     echo ""
-    read -p "wait for ENTER..."  # 暂停，让用户看清结果
+    read -p "wait for ENTER..."  
 done
