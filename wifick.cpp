@@ -206,6 +206,7 @@ void cpd(){
      int pid=fork();
      if(pid==0){
 //last stop to there:
+//there is a problem was not fix.
      	 execl(path.c_str(),"aircrack-ng","",NULL);
 	 exit(0);
      }else if(pid>0){
